@@ -11,4 +11,10 @@ export default buildConfig({
     Page,
     Media,
   ],
+  localization: {
+    locales: [
+      'en',
+    ],
+    defaultLocale: 'en',
+    fallback: true,
 });
