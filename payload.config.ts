@@ -7,14 +7,10 @@ dotenv.config();
 
 export default buildConfig({
   serverURL: process.env.PAYLOAD_PUBLIC_SERVER_URL,
-  collections: [
-    Page,
-    Media,
-  ],
+  collections: [Page, Media],
   localization: {
-    locales: [
-      'en',
-    ],
+    locales: ['en'],
     defaultLocale: 'en',
     fallback: true,
+  },
 });
